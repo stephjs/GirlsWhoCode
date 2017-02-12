@@ -1,0 +1,11 @@
+html {
+	background-color: lightblue;
+	font-family: arial;
+}
+
+form {
+	width: 400px;
+	border: 1px solid black;
+	background-color: lightgray;
+	padding: 30px;
+}

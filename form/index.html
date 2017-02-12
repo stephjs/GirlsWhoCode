@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<form onsubmit="return ValidationEvent()">
+  
+		<h1>Simple Form</h1>
+		<label for="firstname">First Name (text input)</label><br>
+		<input type="text" id="firstname">
+
+		<br><br>
+
+		<label for="lastname">Last Name (text input)</label><br>
+		<input type="text" id="lastname">
+
+		<br><br>
+
+		<label for="psw">Password (password input)</label><br>
+		<input type="password" id="psw">
+
+		<br><br>
+
+		<label for="birthday">Birthday (date input)</label><br>
+		<input type="date" id="birthday">
+
+		<br><br>
+
+		<label for="grade">Grade (select)</label><br>
+		<select id="grade">
+			<option value="4">4</option>
+			<option value="5">5</option>           
+			<option value="6">6</option>           
+			<option value="7">7</option>
+			<option value="8">8</option>           
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>         
+			<option value="12">12</option>
+		</select>
+
+		<br><br>
+
+		<label for="color">Favorite Color (radio input)</label><br>
+		<input type="radio" name="color" value="red" checked>Red<br>
+		<input type="radio" name="color" value="orange">Orange<br>
+		<input type="radio" name="color" value="yellow">Yellow<br>
+		<input type="radio" name="color" value="green">Green<br>
+		<input type="radio" name="color" value="Blue">Blue<br>
+		<input type="radio" name="color" value="purple">Purple
+
+		<br><br>
+
+		<label for="pets">Pets (checkbox input)</label><br>
+		<input type="checkbox" name="pets" value="dog">I have a dog</input><br>
+		<input type="checkbox" name="pets" value="cat">I have a cat</input><br>
+		<input type="checkbox" name="pets" value="other">I have other pets</input>
+
+		<br><br>
+
+		<textarea name="message" rows="10" cols="30">You can type longer messages in a textarea.</textarea>
+
+		<br><br>
+
+		<input type="submit" value="Submit">
+	</form>
+
+<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
