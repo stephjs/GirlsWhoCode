@@ -15,6 +15,11 @@ I volunteer with GWC once a week. Here are lessons I've created to teach the kid
 - text, password, date, radio, checkbox, and submit input types
 - select/option values, textarea
 
+### 💡 [todo list with local storage](https://github.com/stephorpilla/gwc-localstorage-todos)
+- local storage, session storage, and cookies
+- server vs client side rendering
+- vanilla javascript: getElementByID, getElementsByClass, createElement, appendChild, innerHTML
+
 ### 🦊 [crud app](https://github.com/stephorpilla/gwc-easycrudapp)
 - CRUD (create, read, update, destroy) functions
 - storing data with MongoDB and mLab
